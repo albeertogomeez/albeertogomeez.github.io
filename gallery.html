@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crash Bandicoot - Galería</title>
+  <!-- Links hacia Bootstrap 5 usado con !b5-$.-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <!-- Links propios hacia mis archivos de Bootstrap, CSS y JavaScript -->
+  <link rel="icon" href="extra/crash_icon.ico">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <script defer src="js/bootstrap.bundle.js"></script>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+    <!-- ---------------- HEADER ---------------- -->
+        <header class="container-fluid">
+            <nav class="navbar navbar-light bg-crash row">
+                <div class="col-1">
+                    <a href="index.html"><img src="extra/crash_icon.ico" alt="Imagen" class="rounded-circle img-fluid" id="fotocrash"></a>
+                </div>
+                <div class="col">
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 ms-auto">
+                        <li><a href="index.html" class="nav-link px-2 text-white">Inicio</a></li>
+                        <li><a href="#" class="nav-link px-2 bg-white rounded text-dark">Galería</a></li>
+                        <li><a href="contact.html" class="nav-link px-2 text-white">Contacto</a></li>
+                        <li><a href="us.html" class="nav-link px-2 text-white">Conócenos</a></li>
+                    </ul>
+                </div>    
+                <div class="col-1">
+                    <img src="img/crash.png" alt="Imagen" class="rounded-circle img-fluid" id="fotocrash">
+                </div>    
+            </nav>
+        </header>
+    <!-- ---------------- END HEADER ---------------- -->
+
+    <!-- ---------------- MAIN DIV (End línea 125) ---------------- -->
+    <div class="container p-0 text-white">
+
+        <div class="m-3">
+            <p class="display-5 text-center">Galería de imágenes de Crash Bandicoot</p>
+            <p class="m-auto w-75 text-center">Todas las imágenes están a resolución 1920x1080.</p>
+        </div>
+
+        <!-- ---------------- CARRUSEL DE IMÁGENES (End línea 108) ---------------- -->
+        <div class="main-bg-image">
+            <div id="carruselCrash" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carruselCrash" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carruselCrash" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carruselCrash" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#carruselCrash" data-bs-slide-to="3"></li>
+                    <li data-bs-target="#carruselCrash" data-bs-slide-to="4"></li>
+                    <li data-bs-target="#carruselCrash" data-bs-slide-to="5"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <figure>
+                            <img src="img/1507729.png" alt="Imagen 1" class="img-fluid">
+                            <figcaption class="ml-1 small fst-italic" id="subtexto">Crash Bandicoot: N'Sane Trilogy</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="img/crash-bandicoot-sunset-1izya2ao3sy9yo37.jpg" alt="Imagen 2" class="img-fluid">
+                            <figcaption class="ml-1 small fst-italic" id="subtexto">Crash Bandicoot 4: It's About Time</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="img/fjj7ar544srysvdq.jpg" alt="Imagen 3" class="img-fluid">
+                            <figcaption class="ml-1 small fst-italic" id="subtexto">Crash Bandicoot 4: It's About Time</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="img/1056428-best-crash-bandicoot-wallpapers-1920x1080.jpg" alt="Imagen 4" class="img-fluid">
+                            <figcaption class="ml-1 small fst-italic" id="subtexto">Crash Bandicoot: N'Sane Trilogy</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="img/644731.jpg" alt="Imagen 5" class="img-fluid">
+                            <figcaption class="ml-1 small fst-italic" id="subtexto">Crash Mind Over Mutant</figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure>
+                            <img src="img/796269.jpg" alt="Imagen 6" class="img-fluid">
+                            <figcaption class="ml-1 small fst-italic" id="subtexto">Crash Bandicoot 1</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                
+                <a class="carousel-control-prev" href="#carruselCrash" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <strong>Anterior</strong>
+                </a>
+                <a class="carousel-control-next" href="#carruselCrash" role="button" data-bs-slide="next">
+                    <strong>Siguiente</strong>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+        <!-- ---------------- CARRUSEL DE IMÁGENES (Inicio línea 47) ---------------- -->
+
+        <!-- ---------------- FOOTER ---------------- -->
+        <footer class="container-fluid py-3 my-4">
+            <nav class="navbar navbar-light row">
+                
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Galería</a></li>
+                    <li><a href="contact.html" class="nav-link px-2 text-muted">Contacto</a></li>
+                    <li><a href="us.html" class="nav-link px-2 text-muted">Conócenos</a></li>
+                </ul>
+                
+                <p class="text-center text-muted">© 2023 Alberto Gómez Prieto, 1ºDAM</p>
+                    
+            </nav>
+        </footer>
+        <!-- ---------------- END FOOTER ---------------- -->
+    </div>
+    <!-- ---------------- END MAIN DIV (Inicio línea 39) ---------------- -->
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+/* Asignación del background para la pestaña Contact */
+
+body {
+    background-image: url('../img/8338719.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Imagen oscurecida y con un filtro borroso que apenas se puede notar */
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    filter: blur(5px);
+    z-index: -1;
+}

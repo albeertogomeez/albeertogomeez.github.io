@@ -1,0 +1,92 @@
+
+/* Asignación de fondos desde la paleta de colores seleccionada. Colores definidos en bootstrap.css */
+
+.bg-crash {
+    background-color: var(--bs-crash);
+}
+
+.bg-dirty {
+    background-color: var(--bs-dirty);
+}
+
+.bg-eras {
+    background-color: var(--bs-eras);
+}
+
+.bg-vicarious {
+    background-color: var(--bs-vicarious);
+}
+
+.bg-sierra {
+    background-color: var(--bs-sierra);
+}
+
+/* Asignación de fondos personalizados para botones */
+
+.btn-vicarious {
+    background-color: var(--bs-vicarious);
+}
+
+.btn-eras {
+    background-color: var(--bs-eras);
+}
+
+.btn-sierra {
+    background-color: var(--bs-sierra);
+}
+
+/* Tamaño de letra de los badges */
+
+.badge {
+    font-size: 10px;
+}
+
+/* Iconos a los lados en el header */
+
+#fotocrash {
+    max-width: 50px;
+}
+
+/* Ancho de las cards, 18rem. Utilizado directamente desde las cards de Bootstrap */
+
+#card {
+    width: 18rem;
+}
+
+/* Mínimo y máximo de altura predefinido para la carta, para que conserven el mismo tamaño. 
+Todas las imágenes de cada fila están subidas con la misma resolución, de ahí la carpeta "RESIZED IMAGES" */
+
+#cardtext {
+    min-height: 100px;
+    max-height: 250px;
+}
+
+/* Alineación al centro de cada fila en la tabla */
+
+#fila {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Asignación del borde a la tabla. Borde sólido negro de 1px con un radio de 20px */
+
+.table {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+/* Estilo del formulario. Borde redondeado sólido de 1px con fondo Dirty */
+
+form {
+    background-color: var(--bs-dirty);
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 30px;
+    width: 385px;
+}
+
+/* Ancho del 100% para los GIFs que eran más pequeños */
+
+#gifs {
+    width: 100%;
+}
